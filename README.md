@@ -30,22 +30,24 @@ There are 21 live host on my subnet
 
 ## Task5 What are the IP addresses of the live hosts?
 There are 21 IP addresses of the live hosts some which are:
+ ``
  192.168.1.1
  192.168.1.31
  192.168.1.43
  192.168.1.42
  192.168.1.65
  192.168.1.75
-
+``
 ## Task6 What are the MAC addresses of the live hosts?
 There are 21 MAC addresses of the live hosts some which are:
+``
  44:1C:A8:64:EC:3D
  74:24:9F:4E:BD:7C
  58:CE:2A:4D:47:39
  38:C9:86:E9:AD:B8
  A8:E2:91:36:35:42
  DE:1C:DF:02:B4:E5
- 
+ ``
 ## Task7 Display & save the output topology in PDF Format on your desktop
 After displying the topology i saved the output in a pdf format
 
