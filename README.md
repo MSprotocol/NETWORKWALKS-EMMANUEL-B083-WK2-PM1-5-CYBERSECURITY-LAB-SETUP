@@ -1,5 +1,51 @@
 # NETWORKWALKS-EMMANUEL-B083-WK2-PM1-5-CYBERSECURITY-LAB-SETUP
+## WEEK 2 | PROJECT 
 
+
+## MODULE 1
+## FOOTPRINTING & RECONNAISSANCE ATTACKS WITH MULTIPLE KALI TOOLS
+
+## Background
+Reconnaissance (also called as footprinting) is the first step in any real attack or security test. Before
+touching a target, an attacker quietly collects as much public information about it as possible. This
+includes who owns the domain, its real IP address, the hosting provider, the web technologies it
+runs, its DNS and mail records, and whether a firewall is protecting it. All of this comes from
+information the target has already made public, so the target never even knows it is being studied.
+This is why recon is powerful and very hard to detect.
+What we will do in this task?
+In this lab you will footprint the live website networkwalks.com using six built-in Kali Linux tools:
+whois, whatweb, nslookup, curl, wafw00f and dnsrecon. Each tool reveals a different piece of the
+target, and together they build a full profile of it. The information you gather here is the foundation for
+everything that follows. In the next projects/tasks you will use these same findings to plan your
+scanning and your attacks, because you cannot attack what you have not first understood. Record
+every output carefully, as you will need it for your final report.
+## Tasks
+
+Task 1. Run whois to find the domain registration details.
+
+<img width="661" height="580" alt="WHOIS" src="https://github.com/user-attachments/assets/67d4cf39-527e-44f3-861e-ee0605474444" />
+
+Task 2. Run whatweb to fingerprint the web technologies.
+
+<img width="1283" height="268" alt="whatweb" src="https://github.com/user-attachments/assets/07ccef20-7a8f-4fe3-b951-db850c65dce3" />
+
+Task 3. Run nslookup to resolve the domain to its IP address.
+
+<img width="410" height="195" alt="nslookup" src="https://github.com/user-attachments/assets/180794b6-d34f-41f8-8c3c-7607ff112e27" />
+
+
+Task 4. Run curl -I to read the HTTP response headers.
+
+<img width="1270" height="382" alt="curl" src="https://github.com/user-attachments/assets/fa813dc9-30bb-42fc-8a46-6c6f6bbe05ce" />
+
+Task 5. Run wafw00f to detect a Web Application Firewall.
+
+<img width="674" height="412" alt="wafw00f" src="https://github.com/user-attachments/assets/33457eba-6724-42c9-bbaa-ede205a99f5b" />
+
+
+Task 6. Run dnsrecon to enumerate all DNS records.
+
+<img width="1055" height="451" alt="dnsrecon" src="https://github.com/user-attachments/assets/845c9fc6-e2d7-4dcb-b876-5ba11f9a12d2" />
 
 
 ## MODULE 5
